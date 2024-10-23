@@ -1,0 +1,13 @@
+services:
+  backend:
+    build: ./
+    ports:
+      - 2096:2096
+      - 2087:2087
+      - 2083:2083
+      - 2053:2053
+      - 2001:2001
+    environment:
+      - DATA_USER=root
+      - DATA_PASS=7020fe0a-8044-449f-8e53-29ce495ebc4a
+      - DATA_DB=tqpcode
